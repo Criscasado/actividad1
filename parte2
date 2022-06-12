@@ -6,16 +6,16 @@ public class Main {
         System.out.println(micoche.puertas);
 
 
-    
-}
-class coche {
-     public int puertas = 3;
-     public void agregarpuerta() {
-         this.puertas++;
+    }
 
-     }
+    static class coche {
+        public int puertas = 3;
 
+        public void agregarpuerta() {
+            this.puertas++;
 
+        }
 
 
     }
+}
